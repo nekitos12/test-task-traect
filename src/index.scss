@@ -1,0 +1,25 @@
+.app__inner {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.banner {
+  flex-basis: 40%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  background-color: #F8F8FE;
+  @media (max-width: 768px) {
+    & {
+      display: none;
+    }
+  }
+}
+
+.banner__inner {
+  background: url("./assets/banner.png") no-repeat 10% 220px;
+  width: 680px;
+  height: 800px;
+}
